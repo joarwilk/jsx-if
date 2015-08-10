@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  if: function(condition, content) {
+  _if: function(condition, content) {
     if (condition) {
       return typeof content === 'function' ? content() : content;
     }
@@ -23,7 +23,7 @@ module.exports = {
     }
   },
 
-  elseif: function(condition, content) {
+  _elseif: function(condition, content) {
     return {
       isElseIf: true,
       condition: condition,
@@ -32,7 +32,7 @@ module.exports = {
     }
   },
 
-  else: function(content) {
+  _else: function(content) {
     return {
       isElse: true,
       content: content,
