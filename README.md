@@ -25,7 +25,6 @@ Multi line:
 
 In your component:
 
-
     var jsxIf   = require('jsx-if');
 
     var _if     = jsxIf._if,
@@ -36,6 +35,7 @@ The `_if` function takes a minimum of two arguments: a condition and a value or 
 
     _if(condition, value, _elseif(condition, value)..., _else(value))
 
+It's a bit odd but it's as close as it gets until we get proper support built in.
 
 ##Examples
 

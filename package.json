@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git@github.com:joarwilk/jsx-if.git"
   },
+  "scripts": {
+    "test": "make test"
+  },
   "keywords": [
     "jsx",
     "react",
@@ -16,6 +19,9 @@
     "statements",
     "control"
   ],
+  "devDependencies": {
+    "chai": "3.2.0"
+  },
   "author": "Joar Wilk",
   "license": "MIT",
   "bugs": {

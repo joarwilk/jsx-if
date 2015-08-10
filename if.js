@@ -1,3 +1,10 @@
+/**
+ * A set of simple functions emulating standard
+ * control keyword behaviour for use in
+ * templating languages without native support
+ *
+ */
+
 module.exports = {
   if: function(condition, content) {
     if (condition) {
