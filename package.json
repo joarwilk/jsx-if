@@ -1,0 +1,25 @@
+{
+  "name": "jsx-if",
+  "version": "0.1.0",
+  "description": "A very lightweight helper that adds native control statements to jsx",
+  "main": "if.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joarwilk/jsx-if.git"
+  },
+  "keywords": [
+    "jsx",
+    "react",
+    "if",
+    "elseif",
+    "else",
+    "statements",
+    "control"
+  ],
+  "author": "Joar Wilk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joarwilk/jsx-if/issues"
+  },
+  "homepage": "https://github.com/joarwilk/jsx-if"
+}
