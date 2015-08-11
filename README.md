@@ -1,6 +1,7 @@
-# JS Control Statements in JSX
+JSX IF
+=========
 
-A really lightweight helper for writing native-looking control statements in JSX.
+A really lightweight helper for writing native-looking conditionals in JSX.
 
 Single line:
 
@@ -85,3 +86,12 @@ At this point I would probably recommend using the immediately-invoked function 
         <h3>No content</h3>
       )
     )}
+
+
+## Tests
+
+    npm test
+
+## Release history
+
+* 0.1.0 Initial release

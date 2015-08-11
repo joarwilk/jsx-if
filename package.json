@@ -1,7 +1,7 @@
 {
   "name": "jsx-if",
   "version": "0.1.0",
-  "description": "A very lightweight helper that adds native control statements to jsx",
+  "description": "A very lightweight helper that adds native conditionals to jsx",
   "main": "if.js",
   "repository": {
     "type": "git",
